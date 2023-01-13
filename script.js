@@ -1,40 +1,40 @@
 const ovelhinhas = [
     {
         id: 1,
-        nome: 'Joyce',
-        idade: 8,
-        habilidades: 'dfas dlfjajf',
-        foto:''
+        name: 'Joyce',
+        age: '8 years',
+        behave: 'I am adventurous and sometimes angry.',
+        image:'https://thumbs2.imgbox.com/34/e0/mDDfrBOw_t.jpeg'
     },
 
     {
         id: 2,
-        nome: 'Rebecca',
-        idade: 8,
-        habilidades: 'lorem ipsum dolor, sit amet',
-        foto:''
+        name: 'Rebecca',
+        age: '8 years',
+        behave: 'I am friendly and sometimes sad when I feel lonely.',
+        image:'https://thumbs2.imgbox.com/94/a1/nbfra72X_t.jpeg'
     },
 
     {
         id: 3,
-        nome: 'Chloe',
-        idade: 8,
-        habilidades: 'lorem ipsum dolor, sit amet',
-        foto:''
+        name: 'Chloe',
+        age: '8 years',
+        behave: 'I am happy and sometimes clumsy.',
+        image:'https://thumbs2.imgbox.com/05/c2/5yN6GINy_t.jpeg'
     },
     {
         id: 4,
-        nome: 'Lino',
-        idade: 8,
-        habilidades: 'lorem adjaskljfd lasj a',
-        foto:''
+        name: 'Lino',
+        age: '9 years',
+        behave: 'I wanna be austronaut but I am afraid.',
+        image:'https://thumbs2.imgbox.com/2d/60/esCAyVil_t.jpeg'
     },
     {
         id: 5,
-        nome: 'Leo',
-        idade: 8,
-        habilidades: 'lorem ipsum dolor, sit amet',
-        foto:''
+        name: 'Leo',
+        age: '9 years',
+        behave: 'I like to be good I am love.',
+        image:'https://thumbs2.imgbox.com/4c/a5/EyfygKfu_t.jpeg'
     },
 
 ]
@@ -43,10 +43,10 @@ const secao = document.querySelector('.asovelhinhas')
 
 const todasAsOvelhinhas = ovelhinhas.map((ovelhinha) => {
     return `<div> 
-    <p>Nome: ${ovelhinha.nome}</p>
-    <p>Idade: ${ovelhinha.idade}</p>
-    <img src="${ovelhinha.foto}"> 
-    <p>Habilidades: ${ovelhinha.habilidades} </p>
+    <p>Name: ${ovelhinha.name}</p>
+    <p>Age: ${ovelhinha.age}</p>
+    <img src="${ovelhinha.image}"> 
+    <p>Behave: ${ovelhinha.behave} </p>
     </div>`
 })
 
