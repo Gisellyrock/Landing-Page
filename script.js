@@ -40,6 +40,11 @@ const ovelhinhas = [
 ]
 
 const secao = document.querySelector('.asovelhinhas')
+const botao = document.querySelector('.btn')
+
+botao.addEventListener('click', () => {
+    document.documentElement.classList.toggle('dark')
+})
 
 const todasAsOvelhinhas = ovelhinhas.map((ovelhinha) => {
     return `<div> 
